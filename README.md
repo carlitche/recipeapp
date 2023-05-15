@@ -11,7 +11,7 @@
   - Rest Api: 6h
 
 As I am complete new to Grails and Groovy, on this project I did not spend time writing unit test for this project
-and also implementing some json views for not found(404) and internal error(500) for the Rest Api.
+and also did not implement json views for `not found(404)` and `internal error(500)` for the Rest Api.
 
 to create runnable archives run:
 `grails package`
