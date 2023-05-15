@@ -1,0 +1,7 @@
+import myrecipeapp.Recipe
+
+model {
+    Iterable<Recipe> recipeList
+}
+
+json tmpl.recipe(recipeList?: [])

@@ -1,0 +1,15 @@
+import myrecipeapp.Recipe
+
+model {
+    Recipe recipe
+}
+
+json {
+
+    id   recipe.id
+    name recipe.name
+    description recipe.description
+    timeCooking recipe.timeCooking
+    mealType recipe.mealType
+    ingredients  tmpl.'/ingredient/ingredient'(recipe.ingredients)
+}

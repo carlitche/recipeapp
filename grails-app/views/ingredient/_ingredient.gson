@@ -1,0 +1,10 @@
+import myrecipeapp.Ingredient
+
+model {
+    Ingredient ingredient
+}
+json {
+    id ingredient.id
+    name ingredient.name
+    amount ingredient.amount
+}
